@@ -11,10 +11,9 @@ How the four of us share one Figma prototype and one set of docs. This follows h
 
 ## 1. Figma setup (once)
 
-1. **Get Figma Education for everyone.** Each member applies at figma.com/education/apply with their APU email (Higher Ed, SheerID check). University students get the **Professional plan free for one year**. Starter limits (3 design files, no prototype-only share links) stop being a problem.
-2. **Lead creates a team** `Tourix – CT120-3-3` and moves the prototype file into it (file menu → **Move to project…**). A file in someone's Drafts is personal; a file in a team is shared.
-3. **Lead invites the other three to the team** as **Can edit**. Everyone opens the file with their own Figma login.
-4. **Share prototype links** (Present → Share prototype) with tutors and test participants. Never send them an edit link.
+1. **Lead creates a team** `Tourix – CT120-3-3` and moves the prototype file into it (file menu → **Move to project…**). A file in someone's Drafts is personal; a file in a team is shared.
+2. **Lead invites the other three to the team** as **Can edit**. Everyone opens the file with their own Figma login.
+3. **Share prototype links** (Present → Share prototype) with tutors and test participants. Never send them an edit link.
 
 ## 2. How the file is organised
 
