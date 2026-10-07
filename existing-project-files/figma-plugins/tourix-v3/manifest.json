@@ -1,0 +1,9 @@
+{
+  "name": "Tourix v3 – Countries, 3D & motion",
+  "id": "tourix-v3-motion",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["https://images.pexels.com"], "reasoning": "Loads Pexels photos (free licence) for the country guides." }
+}

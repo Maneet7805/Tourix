@@ -1,0 +1,1 @@
+{ "name": "Tourix v5 – Remaining screens", "id": "tourix-v5-remaining", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["https://images.pexels.com"], "reasoning": "Loads Pexels photos (free licence) for destination pages." } }

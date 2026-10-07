@@ -1,0 +1,9 @@
+{
+  "name": "Tourix v2.1 – Fixes",
+  "id": "tourix-v2-1-fixes",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["none"] }
+}

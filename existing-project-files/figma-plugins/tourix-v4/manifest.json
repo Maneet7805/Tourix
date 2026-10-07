@@ -1,0 +1,1 @@
+{ "name": "Tourix v4 – 3D picks in the Home hero", "id": "tourix-v4-hero", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

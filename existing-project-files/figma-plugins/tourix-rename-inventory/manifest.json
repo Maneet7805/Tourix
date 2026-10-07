@@ -1,0 +1,14 @@
+{
+  "name": "Tourix – Rename & Inventory",
+  "id": "tourix-rename-inventory",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["none"] },
+  "menu": [
+    { "name": "1 · Rename Tourix → Tourix (text, layer names, descriptions)", "command": "rename" },
+    { "name": "2 · Export inventory to clipboard (read-only)", "command": "inventory" }
+  ]
+}

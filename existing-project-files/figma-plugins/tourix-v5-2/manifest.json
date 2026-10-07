@@ -1,0 +1,1 @@
+{ "name": "Tourix v5.2 – Sheet fixes", "id": "tourix-v5-2-sheets", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

@@ -1,0 +1,1 @@
+{ "name": "Tourix v5.3 – Explore chip fix", "id": "tourix-v5-3-chips", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

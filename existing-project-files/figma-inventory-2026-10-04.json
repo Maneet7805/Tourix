@@ -1,0 +1,4722 @@
+{
+ "file": "Tourix – Malaysia Discovery App (UX Prototype)",
+ "exported": "2026-10-04T05:53:14.032Z",
+ "pages": [
+  {
+   "name": "Cover & Notes",
+   "flows": [],
+   "top": []
+  },
+  {
+   "name": "Design System",
+   "flows": [],
+   "top": [
+    {
+     "name": "Photo Assets (Pexels licence)",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Photo Assets (Pexels licence)",
+       "type": "FRAME",
+       "w": 1360,
+       "h": 940
+      }
+     ]
+    },
+    {
+     "name": "Logo",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Logo",
+       "type": "COMPONENT_SET",
+       "w": 320,
+       "h": 82
+      }
+     ]
+    },
+    {
+     "name": "Button",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Button",
+       "type": "COMPONENT_SET",
+       "w": 760,
+       "h": 246
+      }
+     ]
+    },
+    {
+     "name": "Filter Chip",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Filter Chip",
+       "type": "COMPONENT_SET",
+       "w": 239,
+       "h": 88
+      }
+     ]
+    },
+    {
+     "name": "Save Button",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Save Button",
+       "type": "COMPONENT_SET",
+       "w": 136,
+       "h": 80
+      }
+     ]
+    },
+    {
+     "name": "Icons (Lucide, 2px stroke)",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Icons (Lucide, 2px stroke)",
+       "type": "FRAME",
+       "w": 732,
+       "h": 72
+      }
+     ]
+    },
+    {
+     "name": "Destination Card",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Destination Card",
+       "type": "COMPONENT_SET",
+       "w": 744,
+       "h": 525
+      }
+     ]
+    },
+    {
+     "name": "Experience Card",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Experience Card",
+       "type": "COMPONENT_SET",
+       "w": 872,
+       "h": 492
+      }
+     ]
+    },
+    {
+     "name": "Category Tile",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Category Tile",
+       "type": "COMPONENT_SET",
+       "w": 552,
+       "h": 384
+      }
+     ]
+    },
+    {
+     "name": "Search Field",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "Search Field",
+       "type": "COMPONENT_SET",
+       "w": 632,
+       "h": 113
+      }
+     ]
+    },
+    {
+     "name": "Benefit Item (preview on pandan)",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Benefit Item (preview on pandan)",
+       "type": "FRAME",
+       "w": 330,
+       "h": 240
+      }
+     ]
+    },
+    {
+     "name": "Benefit Item",
+     "type": "COMPONENT",
+     "frames": [
+      {
+       "name": "Benefit Item",
+       "type": "COMPONENT",
+       "w": 270,
+       "h": 140
+      }
+     ]
+    },
+    {
+     "name": "Showcase Card",
+     "type": "COMPONENT",
+     "frames": [
+      {
+       "name": "Showcase Card",
+       "type": "COMPONENT",
+       "w": 260,
+       "h": 360
+      }
+     ]
+    },
+    {
+     "name": "3D Showcase",
+     "type": "COMPONENT_SET",
+     "frames": [
+      {
+       "name": "3D Showcase",
+       "type": "COMPONENT_SET",
+       "w": 2080,
+       "h": 1320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Landing Page",
+   "flows": [
+    "Flow 1"
+   ],
+   "top": [
+    {
+     "name": "Desktop – Landing (1440)",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Desktop – Landing (1440)",
+       "type": "FRAME",
+       "w": 1440,
+       "h": 1999
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OLD – delete me (Mobile Prototype)",
+   "flows": [
+    "1 · First launch",
+    "2 · Returning user (Home)",
+    "3 · AR Heritage Lens"
+   ],
+   "top": [
+    {
+     "name": "Read me · Part 2 prototype",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Read me · Part 2 prototype",
+       "type": "FRAME",
+       "w": 1480,
+       "h": 1082,
+       "fixed": 0,
+       "text": [
+        "tourix",
+        "Mobile prototype · iOS (iPhone 16, 393 × 852 pt)",
+        "High-fidelity interactive prototype for CT120-3-3 Part 2. Focus area 4, Community & Connec",
+        "Platform: iOS (justify with your survey data)",
+        "• Built to Apple HIG: tab bar, large titles, bottom sheets, 44 pt minimum targets, Dynamic",
+        "• Team to fill in: share of iOS users among your interviewees / survey respondents, and wh",
+        "• Android would use Material 3 equivalents; the same components port across.",
+        "How to play",
+        "• Prototype tab → Device: iPhone 16 (393 × 852).",
+        "• Flow starting points: 1 · First launch, 2 · Returning user, 3 · AR Heritage Lens.",
+        "• Press Play (▶). Tap targets highlight if you click empty space.",
+        "Core user flows (all screens linked)",
+        "• Onboarding: splash → language → interests → Home.",
+        "• Discover: Home → search / Penang → experience → add to trip → Trips.",
+        "• Culture: phrase card or Etiquette tab → culture guide.",
+        "• AR: Lens tab or 'Open Heritage Lens' → tap a label → info sheet.",
+        "Advanced features (brief: choose 1)",
+        "• Chosen: AR/VR integration concept, the AR Heritage Lens for George Town (screens 12–13).",
+        "• Also shown: voice (audio guides, voice search, pronunciation practice) and cross-device ",
+        "• 3D showcase on Home: auto-rotate, prev/next, drag.",
+        "Accessibility (WCAG 2.1 AA considerations)",
+        "15.6 : 1",
+        "Ink on mist (AA needs 4.5 : 1)",
+        "6.9 : 1",
+        "Muted text on white (AA needs 4.5 : 1)",
+        "14.2 : 1",
+        "Light text on pandan (AA needs 4.5 : 1)",
+        "9.1 : 1",
+        "Muted light on pandan (AA needs 4.5 : 1)",
+        "10.0 : 1",
+        "Ink on kaya button (AA needs 4.5 : 1)",
+        "9.2 : 1",
+        "Kaya on pandan (AA needs 4.5 : 1)",
+        "• Touch targets ≥ 44 × 44 pt; tab labels always visible.",
+        "• Selection shown by colour and a tick (1.4.1). Search fields keep a visible label (3.3.2)",
+        "• Reduce motion setting stops the 3D auto-rotation (2.3.3). Captions on all audio (1.2.1).",
+        "• Text size follows iOS Dynamic Type; layouts use auto layout so text can grow.",
+        "Content notes: travel times and climate are approximate (≈). Photos from Pexels (free lice"
+       ],
+       "links": []
+      }
+     ]
+    },
+    {
+     "name": "Mobile kit (components)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "Status Bar (iOS)",
+       "type": "COMPONENT_SET",
+       "w": 425,
+       "h": 226
+      },
+      {
+       "name": "Tab Bar (iOS)",
+       "type": "COMPONENT_SET",
+       "w": 441,
+       "h": 564
+      },
+      {
+       "name": "Interest Tile",
+       "type": "COMPONENT_SET",
+       "w": 392,
+       "h": 174
+      },
+      {
+       "name": "Toggle",
+       "type": "COMPONENT_SET",
+       "w": 150,
+       "h": 63
+      }
+     ]
+    },
+    {
+     "name": "Flow 1 · First launch (onboarding)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "01 Splash",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "tourix",
+        "Malaysia, with local context.",
+        "STUDENT PROTOTYPE · CT120-3-3",
+        "9:41"
+       ],
+       "links": [
+        [
+         "(frame)",
+         "AFTER_TIMEOUT 1.7999999523162842s",
+         "NAVIGATE",
+         "02 Onboarding – Language",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 01 Splash",
+       "type": "FRAME",
+       "w": 393,
+       "h": 48
+      },
+      {
+       "name": "02 Onboarding – Language",
+       "type": "FRAME",
+       "w": 393,
+       "h": 864,
+       "fixed": 2,
+       "text": [
+        "Skip",
+        "Selamat datang. Welcome.",
+        "Choose the language Tourix speaks. You can change it any time in Me → Language.",
+        "EN",
+        "English",
+        "Default",
+        "BM",
+        "Bahasa Melayu",
+        "Bahasa Malaysia",
+        "中",
+        "中文",
+        "Mandarin (Simplified)",
+        "த",
+        "தமிழ்",
+        "Tamil",
+        "Larger text",
+        "Bigger type across the app",
+        "9:41",
+        "Continue"
+       ],
+       "links": [
+        [
+         "Skip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Button/Continue",
+         "ON_CLICK",
+         "NAVIGATE",
+         "03 Onboarding – Interests",
+         "PUSH"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 02 Onboarding – Language",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "03 Onboarding – Interests",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1032,
+       "fixed": 2,
+       "text": [
+        "Skip",
+        "What are you in the mood for?",
+        "Pick a few. We use them to order your Home feed. Nothing is shared.",
+        "Nature & adventure",
+        "Cultural heritage",
+        "Food & local cuisine",
+        "Beaches & islands",
+        "City exploration",
+        "Festivals & events",
+        "Hidden gems",
+        "Travelling with family",
+        "Tip: tap a tile to select or clear it.",
+        "9:41",
+        "3 selected",
+        "Show my Malaysia"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Skip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Button/Show my Malaysia",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 03 Onboarding – Interests",
+       "type": "FRAME",
+       "w": 393,
+       "h": 48
+      }
+     ]
+    },
+    {
+     "name": "Flow 2 · Discover a destination",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "04 Home",
+       "type": "FRAME",
+       "w": 393,
+       "h": 2807,
+       "fixed": 2,
+       "text": [
+        "SELAMAT PAGI · GOOD MORNING",
+        "Where to this weekend?",
+        "Near Kuala Lumpur",
+        "Search places, food, phrases",
+        "2.19°N 102.25°E",
+        "MELAKA",
+        "Melaka",
+        "6.35°N 99.80°E",
+        "KEDAH",
+        "Langkawi",
+        "4.47°N 101.38°E",
+        "PAHANG",
+        "Cameron Highlands",
+        "5.41°N 100.33°E",
+        "PULAU PINANG",
+        "Penang",
+        "5.98°N 116.07°E",
+        "BORNEO",
+        "Sabah",
+        "3.14°N 101.69°E",
+        "FEDERAL TERRITORY",
+        "Kuala Lumpur",
+        "01 / 06",
+        "Explore by mood",
+        "See all",
+        "Nature & adventure",
+        "Rainforest trails and highland tea",
+        "Cultural heritage",
+        "Temples, mosques and clan houses",
+        "Food & local cuisine",
+        "Hawker centres and kopitiams",
+        "Beaches & islands",
+        "Marine parks and quiet coves",
+        "City exploration",
+        "Night markets and skyline views",
+        "Popular destinations",
+        "Skyline views, night markets and neighbourhoods like Kampung Baru and Brickfields, linked ",
+        "GETTING AROUND",
+        "LRT, MRT, monorail, buses",
+        "KNOWN FOR",
+        "Food, shopping, city life",
+        "NORTHERN REGION",
+        "George Town, Pulau Pinang",
+        "Shophouse lanes, clan jetties and hawker food. George Town is a UNESCO World Heritage Site",
+        "FROM KL",
+        "≈1 h flight or 4–5 h drive",
+        "Street food, heritage",
+        "Langkawi, Kedah",
+        "An archipelago of around 99 islands, with mangrove tours, quiet beaches and a cable car in",
+        "≈1 h flight",
+        "DRIEST MONTHS",
+        "Roughly Nov – Apr",
+        "Melaka City",
+        "Dutch and Portuguese-era landmarks, Peranakan cooking and the Jonker Street weekend night ",
+        "≈2 h drive",
+        "Heritage, Nyonya food",
+        "Tanah Rata, Pahang",
+        "Cool air around 1,500 m up, tea estates, mossy forest trails and strawberry farms.",
+        "≈3.5–4 h drive",
+        "CLIMATE",
+        "Cool, often 15–25 °C",
+        "Kota Kinabalu, Sabah",
+        "Mount Kinabalu, island marine parks and rainforest wildlife on the northern tip of Borneo.",
+        "≈2.5 h flight",
+        "Hiking, diving, wildlife",
+        "PHRASE OF THE DAY",
+        "Tumpang lalu",
+        "toom-PAHNG LAH-loo",
+        "“Excuse me, may I pass?” Handy in busy markets and on the five-foot way.",
+        "Open culture guide →"
+       ],
+       "links": [
+        [
+         "Search field",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Nature & adventure",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Cultural heritage",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Food & local cuisine",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Beaches & islands",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/City exploration",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Destination/Penang",
+         "ON_CLICK",
+         "NAVIGATE",
+         "06 Destination – Penang",
+         "PUSH"
+        ],
+        [
+         "Phrase of the day",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 04 Home",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "05 Explore – Search",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1029,
+       "fixed": 2,
+       "text": [
+        "Explore",
+        "Penang",
+        "Cancel",
+        "All",
+        "Places",
+        "Experiences",
+        "Food",
+        "Phrases",
+        "TOP MATCH",
+        "Destination · Pulau Pinang",
+        "≈1 h flight from KL",
+        "EXPERIENCES & GUIDES",
+        "George Town heritage walk",
+        "Experience · About 3 hours",
+        "Hawker breakfast in George Town",
+        "Food · About 1.5 hours",
+        "Phrases for hawker stalls",
+        "Culture guide · 5 phrases with audio",
+        "RECENT",
+        "Halal food near KLCC",
+        "Batu Caves dress code",
+        "Cameron Highlands in December",
+        "9:41",
+        "Home",
+        "Lens",
+        "Trips",
+        "Me"
+       ],
+       "links": [
+        [
+         "Cancel",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Result/Penang",
+         "ON_CLICK",
+         "NAVIGATE",
+         "06 Destination – Penang",
+         "PUSH"
+        ],
+        [
+         "Result/Heritage walk",
+         "ON_CLICK",
+         "NAVIGATE",
+         "07 Experience – Heritage walk",
+         "PUSH"
+        ],
+        [
+         "Result/Phrases",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 05 Explore – Search",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "06 Destination – Penang",
+       "type": "FRAME",
+       "w": 393,
+       "h": 2350,
+       "fixed": 2,
+       "text": [
+        "PULAU PINANG · NORTHERN REGION",
+        "Penang",
+        "George Town · UNESCO World Heritage Site",
+        "FROM KL",
+        "≈1 h flight",
+        "GET AROUND",
+        "Bus, e-hailing, walk",
+        "YOU'LL HEAR",
+        "Malay, Hokkien, English",
+        "Overview",
+        "Experiences",
+        "Etiquette",
+        "Penang mixes Malay, Chinese, Indian and Peranakan heritage in a compact island. Spend a mo",
+        "Good to know",
+        "Cover shoulders and knees at temples and mosques.",
+        "Hot and humid all year. Start walks before 10 am.",
+        "Rapid Penang buses and e-hailing cover the island. The heritage core is walkable.",
+        "Top experiences",
+        "See all",
+        "Cultural heritage",
+        "George Town heritage walk",
+        "George Town, Penang",
+        "Shophouse lanes, a clan temple and the jetties, with a kopi stop on the way.",
+        "About 3 hours",
+        "Morning",
+        "Food & local cuisine",
+        "Hawker breakfast in George Town",
+        "Share a table, order from several stalls and pay each stall separately.",
+        "About 1.5 hours",
+        "7–10 am",
+        "AR · HERITAGE LENS",
+        "See George Town in AR",
+        "Point your camera at a shophouse to hear its story, in your language.",
+        "Open Heritage Lens",
+        "9:41",
+        "Save",
+        "Add to trip"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Seg/Etiquette",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Experience/George Town heritage walk",
+         "ON_CLICK",
+         "NAVIGATE",
+         "07 Experience – Heritage walk",
+         "PUSH"
+        ],
+        [
+         "Button/Open Heritage Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "MOVE_IN"
+        ],
+        [
+         "Button/Add to trip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "09 Trips – Just added",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 06 Destination – Penang",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "07 Experience – Heritage walk",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1344,
+       "fixed": 2,
+       "text": [
+        "Cultural heritage",
+        "George Town heritage walk",
+        "George Town, Penang",
+        "About 3 hours",
+        "Best in the morning",
+        "Easy, flat walking",
+        "Listen to the story",
+        "3 min · EN / BM · captions on",
+        "Route",
+        "1",
+        "Armenian Street",
+        "Murals and restored shophouses. Start before 9 am, before the heat.",
+        "2",
+        "Khoo Kongsi",
+        "An ornate clan temple. There is an entry fee; check opening hours.",
+        "3",
+        "Chew Jetty",
+        "A clan village on stilts. People live here, so keep voices down.",
+        "4",
+        "Kopi break",
+        "Order kopi-o (black coffee with sugar) at a nearby kopitiam.",
+        "Be a good guest",
+        "Ask before photographing people.",
+        "Take shoes off where you see others do.",
+        "Carry small notes for entry fees and snacks.",
+        "9:41",
+        "Add to Day 1 · Sat 17 Oct"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Button/Add to Day 1 · Sat 17 Oct",
+         "ON_CLICK",
+         "NAVIGATE",
+         "09 Trips – Just added",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 07 Experience – Heritage walk",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "08 Culture guide – Phrases",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1335,
+       "fixed": 2,
+       "text": [
+        "Culture guide",
+        "Everyday phrases and etiquette, with audio and captions.",
+        "Phrases",
+        "Etiquette",
+        "Festivals",
+        "Terima kasih",
+        "teh-REE-mah KAH-see",
+        "Thank you",
+        "Tumpang lalu",
+        "toom-PAHNG LAH-loo",
+        "Excuse me, may I pass?",
+        "Berapa harga?",
+        "beh-RAH-pah HAR-gah",
+        "How much is it?",
+        "Tak nak pedas",
+        "tahk nahk peh-DAHS",
+        "Not spicy, please",
+        "Boleh tolong saya?",
+        "BOH-leh TOH-long SAH-yah",
+        "Could you help me?",
+        "Practise out loud",
+        "Say a phrase and Tourix gives feedback on your pronunciation.",
+        "Everyday etiquette",
+        "Give and receive things with your right hand.",
+        "Point with your thumb rather than your index finger.",
+        "If you eat halal, look for the JAKIM halal logo.",
+        "Take shoes off before entering someone's home.",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Trips",
+        "Me"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 08 Culture guide – Phrases",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Flow 3 · Plan a trip & settings",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "09 Trips – Just added",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1147,
+       "fixed": 2,
+       "text": [
+        "Trips",
+        "UPCOMING · 2 TRAVELLERS",
+        "Weekend in Penang",
+        "Sat 17 – Sun 18 Oct 2026",
+        "Synced on iPhone and laptop · just now",
+        "Day 1 · Sat",
+        "Day 2 · Sun",
+        "George Town · 4 stops · 3.2 km",
+        "08:00",
+        "Breakfast at a kopitiam",
+        "Roti canai and teh tarik near Lebuh Chulia",
+        "09:30",
+        "JUST ADDED",
+        "George Town heritage walk",
+        "About 3 hours · Armenian Street → Chew Jetty",
+        "13:00",
+        "Lunch at a hawker centre",
+        "Order from several stalls, share a table",
+        "16:30",
+        "Penang Hill",
+        "Funicular up for sunset views",
+        "Add a stop",
+        "Share plan",
+        "Added to Day 1",
+        "Undo",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Me"
+       ],
+       "links": [
+        [
+         "Button/Add a stop",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ],
+        [
+         "(frame)",
+         "AFTER_TIMEOUT 2.4000000953674316s",
+         "NAVIGATE",
+         "10 Trips",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 09 Trips – Just added",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "10 Trips",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1147,
+       "fixed": 2,
+       "text": [
+        "Trips",
+        "UPCOMING · 2 TRAVELLERS",
+        "Weekend in Penang",
+        "Sat 17 – Sun 18 Oct 2026",
+        "Synced on iPhone and laptop · just now",
+        "Day 1 · Sat",
+        "Day 2 · Sun",
+        "George Town · 4 stops · 3.2 km",
+        "08:00",
+        "Breakfast at a kopitiam",
+        "Roti canai and teh tarik near Lebuh Chulia",
+        "09:30",
+        "JUST ADDED",
+        "George Town heritage walk",
+        "About 3 hours · Armenian Street → Chew Jetty",
+        "13:00",
+        "Lunch at a hawker centre",
+        "Order from several stalls, share a table",
+        "16:30",
+        "Penang Hill",
+        "Funicular up for sunset views",
+        "Add a stop",
+        "Share plan",
+        "Added to Day 1",
+        "Undo",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Me"
+       ],
+       "links": [
+        [
+         "Button/Add a stop",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 10 Trips",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "11 Me – Settings & accessibility",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1127,
+       "fixed": 2,
+       "text": [
+        "Me",
+        "Guest explorer",
+        "Kuala Lumpur · 3 saved places",
+        "LANGUAGE & REGION",
+        "Language",
+        "English",
+        "Units",
+        "km, °C",
+        "ACCESSIBILITY",
+        "Text size",
+        "Follows iOS Dynamic Type",
+        "A",
+        "High contrast",
+        "Stronger borders and text",
+        "Reduce motion",
+        "Stops the 3D showcase auto-rotating",
+        "Captions on audio",
+        "Text for every audio guide",
+        "OFFLINE & SYNC",
+        "Offline guide packs",
+        "Penang · 24 MB",
+        "Synced devices",
+        "iPhone, laptop",
+        "ABOUT",
+        "About this prototype",
+        "v0.1",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Trips"
+       ],
+       "links": [
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 11 Me – Settings & accessibility",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Flow 4 · AR Heritage Lens (advanced feature)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "12 AR Heritage Lens",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "Shophouse detected",
+        "Five-foot way",
+        "kaki lima · tap to learn",
+        "Straits shophouse façade",
+        "History · 2 min",
+        "Kopitiam nearby",
+        "Food · 120 m",
+        "Heritage Lens",
+        "AR",
+        "Point at a shophouse façade. Tap a label to learn more.",
+        "History",
+        "Phrases",
+        "Food nearby",
+        "ARCHITECTURE · GEORGE TOWN",
+        "The five-foot way",
+        "In Malay: kaki lima",
+        "The covered walkway in front of shophouses, roughly five feet wide. It gives shade and sha",
+        "Listen · 1 min",
+        "English · Bahasa Melayu · captions on",
+        "Save",
+        "Next landmark",
+        "9:41"
+       ],
+       "links": [
+        [
+         "AR label · Five-foot way",
+         "ON_CLICK",
+         "NAVIGATE",
+         "13 AR Lens – Landmark info",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Close",
+         "ON_CLICK",
+         "BACK"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 12 AR Heritage Lens",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "13 AR Lens – Landmark info",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "Shophouse detected",
+        "Five-foot way",
+        "kaki lima · tap to learn",
+        "Straits shophouse façade",
+        "History · 2 min",
+        "Kopitiam nearby",
+        "Food · 120 m",
+        "Heritage Lens",
+        "AR",
+        "Point at a shophouse façade. Tap a label to learn more.",
+        "History",
+        "Phrases",
+        "Food nearby",
+        "ARCHITECTURE · GEORGE TOWN",
+        "The five-foot way",
+        "In Malay: kaki lima",
+        "The covered walkway in front of shophouses, roughly five feet wide. It gives shade and sha",
+        "Listen · 1 min",
+        "English · Bahasa Melayu · captions on",
+        "Save",
+        "Next landmark",
+        "9:41"
+       ],
+       "links": [
+        [
+         "Close",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Scrim",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Close sheet",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Button/Next landmark",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 13 AR Lens – Landmark info",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Build log",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Build log",
+       "type": "FRAME",
+       "w": 900,
+       "h": 92,
+       "fixed": 0,
+       "text": [
+        "Build log · no issues"
+       ],
+       "links": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OLD – delete me (Mobile Prototype) 2",
+   "flows": [
+    "1 · First launch",
+    "2 · Returning user (Home)",
+    "3 · AR Heritage Lens"
+   ],
+   "top": [
+    {
+     "name": "Read me · Part 2 prototype",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Read me · Part 2 prototype",
+       "type": "FRAME",
+       "w": 1480,
+       "h": 1082,
+       "fixed": 0,
+       "text": [
+        "tourix",
+        "Mobile prototype · iOS (iPhone 16, 393 × 852 pt)",
+        "High-fidelity interactive prototype for CT120-3-3 Part 2. Focus area 4, Community & Connec",
+        "Platform: iOS (justify with your survey data)",
+        "• Built to Apple HIG: tab bar, large titles, bottom sheets, 44 pt minimum targets, Dynamic",
+        "• Team to fill in: share of iOS users among your interviewees / survey respondents, and wh",
+        "• Android would use Material 3 equivalents; the same components port across.",
+        "How to play",
+        "• Prototype tab → Device: iPhone 16 (393 × 852).",
+        "• Flow starting points: 1 · First launch, 2 · Returning user, 3 · AR Heritage Lens.",
+        "• Press Play (▶). Tap targets highlight if you click empty space.",
+        "Core user flows (all screens linked)",
+        "• Onboarding: splash → language → interests → Home.",
+        "• Discover: Home → search / Penang → experience → add to trip → Trips.",
+        "• Culture: phrase card or Etiquette tab → culture guide.",
+        "• AR: Lens tab or 'Open Heritage Lens' → tap a label → info sheet.",
+        "Advanced features (brief: choose 1)",
+        "• Chosen: AR/VR integration concept, the AR Heritage Lens for George Town (screens 12–13).",
+        "• Also shown: voice (audio guides, voice search, pronunciation practice) and cross-device ",
+        "• 3D showcase on Home: auto-rotate, prev/next, drag.",
+        "Accessibility (WCAG 2.1 AA considerations)",
+        "15.6 : 1",
+        "Ink on mist (AA needs 4.5 : 1)",
+        "6.9 : 1",
+        "Muted text on white (AA needs 4.5 : 1)",
+        "14.2 : 1",
+        "Light text on pandan (AA needs 4.5 : 1)",
+        "9.1 : 1",
+        "Muted light on pandan (AA needs 4.5 : 1)",
+        "10.0 : 1",
+        "Ink on kaya button (AA needs 4.5 : 1)",
+        "9.2 : 1",
+        "Kaya on pandan (AA needs 4.5 : 1)",
+        "• Touch targets ≥ 44 × 44 pt; tab labels always visible.",
+        "• Selection shown by colour and a tick (1.4.1). Search fields keep a visible label (3.3.2)",
+        "• Reduce motion setting stops the 3D auto-rotation (2.3.3). Captions on all audio (1.2.1).",
+        "• Text size follows iOS Dynamic Type; layouts use auto layout so text can grow.",
+        "Content notes: travel times and climate are approximate (≈). Photos from Pexels (free lice"
+       ],
+       "links": []
+      }
+     ]
+    },
+    {
+     "name": "Mobile kit (components)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "Status Bar (iOS)",
+       "type": "COMPONENT_SET",
+       "w": 425,
+       "h": 226
+      },
+      {
+       "name": "Tab Bar (iOS)",
+       "type": "COMPONENT_SET",
+       "w": 441,
+       "h": 564
+      },
+      {
+       "name": "Interest Tile",
+       "type": "COMPONENT_SET",
+       "w": 392,
+       "h": 174
+      },
+      {
+       "name": "Toggle",
+       "type": "COMPONENT_SET",
+       "w": 150,
+       "h": 63
+      }
+     ]
+    },
+    {
+     "name": "Flow 1 · First launch (onboarding)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "01 Splash",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "tourix",
+        "Malaysia, with local context.",
+        "STUDENT PROTOTYPE · CT120-3-3",
+        "9:41"
+       ],
+       "links": [
+        [
+         "(frame)",
+         "AFTER_TIMEOUT 1.7999999523162842s",
+         "NAVIGATE",
+         "02 Onboarding – Language",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 01 Splash",
+       "type": "FRAME",
+       "w": 393,
+       "h": 48
+      },
+      {
+       "name": "02 Onboarding – Language",
+       "type": "FRAME",
+       "w": 393,
+       "h": 864,
+       "fixed": 2,
+       "text": [
+        "Skip",
+        "Selamat datang. Welcome.",
+        "Choose the language Tourix speaks. You can change it any time in Me → Language.",
+        "EN",
+        "English",
+        "Default",
+        "BM",
+        "Bahasa Melayu",
+        "Bahasa Malaysia",
+        "中",
+        "中文",
+        "Mandarin (Simplified)",
+        "த",
+        "தமிழ்",
+        "Tamil",
+        "Larger text",
+        "Bigger type across the app",
+        "9:41",
+        "Continue"
+       ],
+       "links": [
+        [
+         "Skip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Button/Continue",
+         "ON_CLICK",
+         "NAVIGATE",
+         "03 Onboarding – Interests",
+         "PUSH"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 02 Onboarding – Language",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "03 Onboarding – Interests",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1032,
+       "fixed": 2,
+       "text": [
+        "Skip",
+        "What are you in the mood for?",
+        "Pick a few. We use them to order your Home feed. Nothing is shared.",
+        "Nature & adventure",
+        "Cultural heritage",
+        "Food & local cuisine",
+        "Beaches & islands",
+        "City exploration",
+        "Festivals & events",
+        "Hidden gems",
+        "Travelling with family",
+        "Tip: tap a tile to select or clear it.",
+        "9:41",
+        "3 selected",
+        "Show my Malaysia"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Skip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Button/Show my Malaysia",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 03 Onboarding – Interests",
+       "type": "FRAME",
+       "w": 393,
+       "h": 48
+      }
+     ]
+    },
+    {
+     "name": "Flow 2 · Discover a destination",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "04 Home",
+       "type": "FRAME",
+       "w": 393,
+       "h": 2807,
+       "fixed": 2,
+       "text": [
+        "SELAMAT PAGI · GOOD MORNING",
+        "Where to this weekend?",
+        "Near Kuala Lumpur",
+        "Search places, food, phrases",
+        "2.19°N 102.25°E",
+        "MELAKA",
+        "Melaka",
+        "6.35°N 99.80°E",
+        "KEDAH",
+        "Langkawi",
+        "4.47°N 101.38°E",
+        "PAHANG",
+        "Cameron Highlands",
+        "5.41°N 100.33°E",
+        "PULAU PINANG",
+        "Penang",
+        "5.98°N 116.07°E",
+        "BORNEO",
+        "Sabah",
+        "3.14°N 101.69°E",
+        "FEDERAL TERRITORY",
+        "Kuala Lumpur",
+        "01 / 06",
+        "Explore by mood",
+        "See all",
+        "Nature & adventure",
+        "Rainforest trails and highland tea",
+        "Cultural heritage",
+        "Temples, mosques and clan houses",
+        "Food & local cuisine",
+        "Hawker centres and kopitiams",
+        "Beaches & islands",
+        "Marine parks and quiet coves",
+        "City exploration",
+        "Night markets and skyline views",
+        "Popular destinations",
+        "Skyline views, night markets and neighbourhoods like Kampung Baru and Brickfields, linked ",
+        "GETTING AROUND",
+        "LRT, MRT, monorail, buses",
+        "KNOWN FOR",
+        "Food, shopping, city life",
+        "NORTHERN REGION",
+        "George Town, Pulau Pinang",
+        "Shophouse lanes, clan jetties and hawker food. George Town is a UNESCO World Heritage Site",
+        "FROM KL",
+        "≈1 h flight or 4–5 h drive",
+        "Street food, heritage",
+        "Langkawi, Kedah",
+        "An archipelago of around 99 islands, with mangrove tours, quiet beaches and a cable car in",
+        "≈1 h flight",
+        "DRIEST MONTHS",
+        "Roughly Nov – Apr",
+        "Melaka City",
+        "Dutch and Portuguese-era landmarks, Peranakan cooking and the Jonker Street weekend night ",
+        "≈2 h drive",
+        "Heritage, Nyonya food",
+        "Tanah Rata, Pahang",
+        "Cool air around 1,500 m up, tea estates, mossy forest trails and strawberry farms.",
+        "≈3.5–4 h drive",
+        "CLIMATE",
+        "Cool, often 15–25 °C",
+        "Kota Kinabalu, Sabah",
+        "Mount Kinabalu, island marine parks and rainforest wildlife on the northern tip of Borneo.",
+        "≈2.5 h flight",
+        "Hiking, diving, wildlife",
+        "PHRASE OF THE DAY",
+        "Tumpang lalu",
+        "toom-PAHNG LAH-loo",
+        "“Excuse me, may I pass?” Handy in busy markets and on the five-foot way.",
+        "Open culture guide →"
+       ],
+       "links": [
+        [
+         "Search field",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Nature & adventure",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Cultural heritage",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Food & local cuisine",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Beaches & islands",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/City exploration",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Destination/Penang",
+         "ON_CLICK",
+         "NAVIGATE",
+         "06 Destination – Penang",
+         "PUSH"
+        ],
+        [
+         "Phrase of the day",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 04 Home",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "05 Explore – Search",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1029,
+       "fixed": 2,
+       "text": [
+        "Explore",
+        "Penang",
+        "Cancel",
+        "All",
+        "Places",
+        "Experiences",
+        "Food",
+        "Phrases",
+        "TOP MATCH",
+        "Destination · Pulau Pinang",
+        "≈1 h flight from KL",
+        "EXPERIENCES & GUIDES",
+        "George Town heritage walk",
+        "Experience · About 3 hours",
+        "Hawker breakfast in George Town",
+        "Food · About 1.5 hours",
+        "Phrases for hawker stalls",
+        "Culture guide · 5 phrases with audio",
+        "RECENT",
+        "Halal food near KLCC",
+        "Batu Caves dress code",
+        "Cameron Highlands in December",
+        "9:41",
+        "Home",
+        "Lens",
+        "Trips",
+        "Me"
+       ],
+       "links": [
+        [
+         "Cancel",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Result/Penang",
+         "ON_CLICK",
+         "NAVIGATE",
+         "06 Destination – Penang",
+         "PUSH"
+        ],
+        [
+         "Result/Heritage walk",
+         "ON_CLICK",
+         "NAVIGATE",
+         "07 Experience – Heritage walk",
+         "PUSH"
+        ],
+        [
+         "Result/Phrases",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 05 Explore – Search",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "06 Destination – Penang",
+       "type": "FRAME",
+       "w": 393,
+       "h": 2350,
+       "fixed": 2,
+       "text": [
+        "PULAU PINANG · NORTHERN REGION",
+        "Penang",
+        "George Town · UNESCO World Heritage Site",
+        "FROM KL",
+        "≈1 h flight",
+        "GET AROUND",
+        "Bus, e-hailing, walk",
+        "YOU'LL HEAR",
+        "Malay, Hokkien, English",
+        "Overview",
+        "Experiences",
+        "Etiquette",
+        "Penang mixes Malay, Chinese, Indian and Peranakan heritage in a compact island. Spend a mo",
+        "Good to know",
+        "Cover shoulders and knees at temples and mosques.",
+        "Hot and humid all year. Start walks before 10 am.",
+        "Rapid Penang buses and e-hailing cover the island. The heritage core is walkable.",
+        "Top experiences",
+        "See all",
+        "Cultural heritage",
+        "George Town heritage walk",
+        "George Town, Penang",
+        "Shophouse lanes, a clan temple and the jetties, with a kopi stop on the way.",
+        "About 3 hours",
+        "Morning",
+        "Food & local cuisine",
+        "Hawker breakfast in George Town",
+        "Share a table, order from several stalls and pay each stall separately.",
+        "About 1.5 hours",
+        "7–10 am",
+        "AR · HERITAGE LENS",
+        "See George Town in AR",
+        "Point your camera at a shophouse to hear its story, in your language.",
+        "Open Heritage Lens",
+        "9:41",
+        "Save",
+        "Add to trip"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Seg/Etiquette",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Experience/George Town heritage walk",
+         "ON_CLICK",
+         "NAVIGATE",
+         "07 Experience – Heritage walk",
+         "PUSH"
+        ],
+        [
+         "Button/Open Heritage Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "MOVE_IN"
+        ],
+        [
+         "Button/Add to trip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "09 Trips – Just added",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 06 Destination – Penang",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "07 Experience – Heritage walk",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1344,
+       "fixed": 2,
+       "text": [
+        "Cultural heritage",
+        "George Town heritage walk",
+        "George Town, Penang",
+        "About 3 hours",
+        "Best in the morning",
+        "Easy, flat walking",
+        "Listen to the story",
+        "3 min · EN / BM · captions on",
+        "Route",
+        "1",
+        "Armenian Street",
+        "Murals and restored shophouses. Start before 9 am, before the heat.",
+        "2",
+        "Khoo Kongsi",
+        "An ornate clan temple. There is an entry fee; check opening hours.",
+        "3",
+        "Chew Jetty",
+        "A clan village on stilts. People live here, so keep voices down.",
+        "4",
+        "Kopi break",
+        "Order kopi-o (black coffee with sugar) at a nearby kopitiam.",
+        "Be a good guest",
+        "Ask before photographing people.",
+        "Take shoes off where you see others do.",
+        "Carry small notes for entry fees and snacks.",
+        "9:41",
+        "Add to Day 1 · Sat 17 Oct"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Button/Add to Day 1 · Sat 17 Oct",
+         "ON_CLICK",
+         "NAVIGATE",
+         "09 Trips – Just added",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 07 Experience – Heritage walk",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "08 Culture guide – Phrases",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1335,
+       "fixed": 2,
+       "text": [
+        "Culture guide",
+        "Everyday phrases and etiquette, with audio and captions.",
+        "Phrases",
+        "Etiquette",
+        "Festivals",
+        "Terima kasih",
+        "teh-REE-mah KAH-see",
+        "Thank you",
+        "Tumpang lalu",
+        "toom-PAHNG LAH-loo",
+        "Excuse me, may I pass?",
+        "Berapa harga?",
+        "beh-RAH-pah HAR-gah",
+        "How much is it?",
+        "Tak nak pedas",
+        "tahk nahk peh-DAHS",
+        "Not spicy, please",
+        "Boleh tolong saya?",
+        "BOH-leh TOH-long SAH-yah",
+        "Could you help me?",
+        "Practise out loud",
+        "Say a phrase and Tourix gives feedback on your pronunciation.",
+        "Everyday etiquette",
+        "Give and receive things with your right hand.",
+        "Point with your thumb rather than your index finger.",
+        "If you eat halal, look for the JAKIM halal logo.",
+        "Take shoes off before entering someone's home.",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Trips",
+        "Me"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 08 Culture guide – Phrases",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Flow 3 · Plan a trip & settings",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "09 Trips – Just added",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1147,
+       "fixed": 2,
+       "text": [
+        "Trips",
+        "UPCOMING · 2 TRAVELLERS",
+        "Weekend in Penang",
+        "Sat 17 – Sun 18 Oct 2026",
+        "Synced on iPhone and laptop · just now",
+        "Day 1 · Sat",
+        "Day 2 · Sun",
+        "George Town · 4 stops · 3.2 km",
+        "08:00",
+        "Breakfast at a kopitiam",
+        "Roti canai and teh tarik near Lebuh Chulia",
+        "09:30",
+        "JUST ADDED",
+        "George Town heritage walk",
+        "About 3 hours · Armenian Street → Chew Jetty",
+        "13:00",
+        "Lunch at a hawker centre",
+        "Order from several stalls, share a table",
+        "16:30",
+        "Penang Hill",
+        "Funicular up for sunset views",
+        "Add a stop",
+        "Share plan",
+        "Added to Day 1",
+        "Undo",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Me"
+       ],
+       "links": [
+        [
+         "Button/Add a stop",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ],
+        [
+         "(frame)",
+         "AFTER_TIMEOUT 2.4000000953674316s",
+         "NAVIGATE",
+         "10 Trips",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 09 Trips – Just added",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "10 Trips",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1147,
+       "fixed": 2,
+       "text": [
+        "Trips",
+        "UPCOMING · 2 TRAVELLERS",
+        "Weekend in Penang",
+        "Sat 17 – Sun 18 Oct 2026",
+        "Synced on iPhone and laptop · just now",
+        "Day 1 · Sat",
+        "Day 2 · Sun",
+        "George Town · 4 stops · 3.2 km",
+        "08:00",
+        "Breakfast at a kopitiam",
+        "Roti canai and teh tarik near Lebuh Chulia",
+        "09:30",
+        "JUST ADDED",
+        "George Town heritage walk",
+        "About 3 hours · Armenian Street → Chew Jetty",
+        "13:00",
+        "Lunch at a hawker centre",
+        "Order from several stalls, share a table",
+        "16:30",
+        "Penang Hill",
+        "Funicular up for sunset views",
+        "Add a stop",
+        "Share plan",
+        "Added to Day 1",
+        "Undo",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Me"
+       ],
+       "links": [
+        [
+         "Button/Add a stop",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 10 Trips",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "11 Me – Settings & accessibility",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1127,
+       "fixed": 2,
+       "text": [
+        "Me",
+        "Guest explorer",
+        "Kuala Lumpur · 3 saved places",
+        "LANGUAGE & REGION",
+        "Language",
+        "English",
+        "Units",
+        "km, °C",
+        "ACCESSIBILITY",
+        "Text size",
+        "Follows iOS Dynamic Type",
+        "A",
+        "High contrast",
+        "Stronger borders and text",
+        "Reduce motion",
+        "Stops the 3D showcase auto-rotating",
+        "Captions on audio",
+        "Text for every audio guide",
+        "OFFLINE & SYNC",
+        "Offline guide packs",
+        "Penang · 24 MB",
+        "Synced devices",
+        "iPhone, laptop",
+        "ABOUT",
+        "About this prototype",
+        "v0.1",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Trips"
+       ],
+       "links": [
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 11 Me – Settings & accessibility",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Flow 4 · AR Heritage Lens (advanced feature)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "12 AR Heritage Lens",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "Shophouse detected",
+        "Five-foot way",
+        "kaki lima · tap to learn",
+        "Straits shophouse façade",
+        "History · 2 min",
+        "Kopitiam nearby",
+        "Food · 120 m",
+        "Heritage Lens",
+        "AR",
+        "Point at a shophouse façade. Tap a label to learn more.",
+        "History",
+        "Phrases",
+        "Food nearby",
+        "ARCHITECTURE · GEORGE TOWN",
+        "The five-foot way",
+        "In Malay: kaki lima",
+        "The covered walkway in front of shophouses, roughly five feet wide. It gives shade and sha",
+        "Listen · 1 min",
+        "English · Bahasa Melayu · captions on",
+        "Save",
+        "Next landmark",
+        "9:41"
+       ],
+       "links": [
+        [
+         "AR label · Five-foot way",
+         "ON_CLICK",
+         "NAVIGATE",
+         "13 AR Lens – Landmark info",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Close",
+         "ON_CLICK",
+         "BACK"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 12 AR Heritage Lens",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "13 AR Lens – Landmark info",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "Shophouse detected",
+        "Five-foot way",
+        "kaki lima · tap to learn",
+        "Straits shophouse façade",
+        "History · 2 min",
+        "Kopitiam nearby",
+        "Food · 120 m",
+        "Heritage Lens",
+        "AR",
+        "Point at a shophouse façade. Tap a label to learn more.",
+        "History",
+        "Phrases",
+        "Food nearby",
+        "ARCHITECTURE · GEORGE TOWN",
+        "The five-foot way",
+        "In Malay: kaki lima",
+        "The covered walkway in front of shophouses, roughly five feet wide. It gives shade and sha",
+        "Listen · 1 min",
+        "English · Bahasa Melayu · captions on",
+        "Save",
+        "Next landmark",
+        "9:41"
+       ],
+       "links": [
+        [
+         "Close",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Scrim",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Close sheet",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Button/Next landmark",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 13 AR Lens – Landmark info",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Build log",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Build log",
+       "type": "FRAME",
+       "w": 900,
+       "h": 92,
+       "fixed": 0,
+       "text": [
+        "Build log · no issues"
+       ],
+       "links": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mobile Prototype (iOS)",
+   "flows": [
+    "1 · First launch",
+    "2 · Returning user (Home)",
+    "3 · AR Heritage Lens"
+   ],
+   "top": [
+    {
+     "name": "Read me · Part 2 prototype",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Read me · Part 2 prototype",
+       "type": "FRAME",
+       "w": 1480,
+       "h": 1082,
+       "fixed": 0,
+       "text": [
+        "tourix",
+        "Mobile prototype · iOS (iPhone 16, 393 × 852 pt)",
+        "High-fidelity interactive prototype for CT120-3-3 Part 2. Focus area 4, Community & Connec",
+        "Platform: iOS (justify with your survey data)",
+        "• Built to Apple HIG: tab bar, large titles, bottom sheets, 44 pt minimum targets, Dynamic",
+        "• Team to fill in: share of iOS users among your interviewees / survey respondents, and wh",
+        "• Android would use Material 3 equivalents; the same components port across.",
+        "How to play",
+        "• Prototype tab → Device: iPhone 16 (393 × 852).",
+        "• Flow starting points: 1 · First launch, 2 · Returning user, 3 · AR Heritage Lens.",
+        "• Press Play (▶). Tap targets highlight if you click empty space.",
+        "Core user flows (all screens linked)",
+        "• Onboarding: splash → language → interests → Home.",
+        "• Discover: Home → search / Penang → experience → add to trip → Trips.",
+        "• Culture: phrase card or Etiquette tab → culture guide.",
+        "• AR: Lens tab or 'Open Heritage Lens' → tap a label → info sheet.",
+        "Advanced features (brief: choose 1)",
+        "• Chosen: AR/VR integration concept, the AR Heritage Lens for George Town (screens 12–13).",
+        "• Also shown: voice (audio guides, voice search, pronunciation practice) and cross-device ",
+        "• 3D showcase on Home: auto-rotate, prev/next, drag.",
+        "Accessibility (WCAG 2.1 AA considerations)",
+        "15.6 : 1",
+        "Ink on mist (AA needs 4.5 : 1)",
+        "6.9 : 1",
+        "Muted text on white (AA needs 4.5 : 1)",
+        "14.2 : 1",
+        "Light text on pandan (AA needs 4.5 : 1)",
+        "9.1 : 1",
+        "Muted light on pandan (AA needs 4.5 : 1)",
+        "10.0 : 1",
+        "Ink on kaya button (AA needs 4.5 : 1)",
+        "9.2 : 1",
+        "Kaya on pandan (AA needs 4.5 : 1)",
+        "• Touch targets ≥ 44 × 44 pt; tab labels always visible.",
+        "• Selection shown by colour and a tick (1.4.1). Search fields keep a visible label (3.3.2)",
+        "• Reduce motion setting stops the 3D auto-rotation (2.3.3). Captions on all audio (1.2.1).",
+        "• Text size follows iOS Dynamic Type; layouts use auto layout so text can grow.",
+        "Content notes: travel times and climate are approximate (≈). Photos from Pexels (free lice"
+       ],
+       "links": []
+      }
+     ]
+    },
+    {
+     "name": "Mobile kit (components)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "Status Bar (iOS)",
+       "type": "COMPONENT_SET",
+       "w": 425,
+       "h": 226
+      },
+      {
+       "name": "Tab Bar (iOS)",
+       "type": "COMPONENT_SET",
+       "w": 441,
+       "h": 564
+      },
+      {
+       "name": "Interest Tile",
+       "type": "COMPONENT_SET",
+       "w": 392,
+       "h": 160
+      },
+      {
+       "name": "Toggle",
+       "type": "COMPONENT_SET",
+       "w": 150,
+       "h": 63
+      }
+     ]
+    },
+    {
+     "name": "Flow 1 · First launch (onboarding)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "01 Splash",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "tourix",
+        "Malaysia, with local context.",
+        "STUDENT PROTOTYPE · CT120-3-3",
+        "9:41"
+       ],
+       "links": [
+        [
+         "(frame)",
+         "AFTER_TIMEOUT 1.7999999523162842s",
+         "NAVIGATE",
+         "02 Onboarding – Language",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 01 Splash",
+       "type": "FRAME",
+       "w": 393,
+       "h": 48
+      },
+      {
+       "name": "02 Onboarding – Language",
+       "type": "FRAME",
+       "w": 393,
+       "h": 854,
+       "fixed": 2,
+       "text": [
+        "Skip",
+        "Selamat datang. Welcome.",
+        "Choose the language Tourix speaks. You can change it any time in Me → Language.",
+        "EN",
+        "English",
+        "Default",
+        "BM",
+        "Bahasa Melayu",
+        "Bahasa Malaysia",
+        "中",
+        "中文",
+        "Mandarin (Simplified)",
+        "த",
+        "தமிழ்",
+        "Tamil",
+        "Larger text",
+        "Bigger type across the app",
+        "9:41",
+        "Continue"
+       ],
+       "links": [
+        [
+         "Skip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Button/Continue",
+         "ON_CLICK",
+         "NAVIGATE",
+         "03 Onboarding – Interests",
+         "PUSH"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 02 Onboarding – Language",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "03 Onboarding – Interests",
+       "type": "FRAME",
+       "w": 393,
+       "h": 978,
+       "fixed": 2,
+       "text": [
+        "Skip",
+        "What are you in the mood for?",
+        "Pick a few. We use them to order your Home feed. Nothing is shared.",
+        "Nature & adventure",
+        "Cultural heritage",
+        "Food & local cuisine",
+        "Beaches & islands",
+        "City exploration",
+        "Festivals & events",
+        "Hidden gems",
+        "Travelling with family",
+        "Tip: tap a tile to select or clear it.",
+        "9:41",
+        "3 selected",
+        "Show my Malaysia"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Skip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Button/Show my Malaysia",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 03 Onboarding – Interests",
+       "type": "FRAME",
+       "w": 393,
+       "h": 48
+      }
+     ]
+    },
+    {
+     "name": "Flow 2 · Discover a destination",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "04 Home",
+       "type": "FRAME",
+       "w": 393,
+       "h": 2316,
+       "fixed": 2,
+       "text": [
+        "SELAMAT PAGI · GOOD MORNING",
+        "Where to this weekend?",
+        "Near Kuala Lumpur",
+        "Search places, food, phrases",
+        "2.19°N 102.25°E",
+        "MELAKA",
+        "Melaka",
+        "6.35°N 99.80°E",
+        "KEDAH",
+        "Langkawi",
+        "4.47°N 101.38°E",
+        "PAHANG",
+        "Cameron Highlands",
+        "5.41°N 100.33°E",
+        "PULAU PINANG",
+        "Penang",
+        "5.98°N 116.07°E",
+        "BORNEO",
+        "Sabah",
+        "3.14°N 101.69°E",
+        "FEDERAL TERRITORY",
+        "Kuala Lumpur",
+        "01 / 06",
+        "Explore by mood",
+        "See all",
+        "Nature & adventure",
+        "Cultural heritage",
+        "Food & local cuisine",
+        "Beaches & islands",
+        "City exploration",
+        "Popular destinations",
+        "Skyline views, night markets and neighbourhoods like Kampung Baru and Brickfields, linked ",
+        "GETTING AROUND",
+        "LRT, MRT, monorail, buses",
+        "KNOWN FOR",
+        "Food, shopping, city life",
+        "NORTHERN REGION",
+        "George Town, Pulau Pinang",
+        "Shophouse lanes, clan jetties and hawker food. George Town is a UNESCO World Heritage Site",
+        "FROM KL",
+        "≈1 h flight or 4–5 h drive",
+        "Street food, heritage",
+        "Langkawi, Kedah",
+        "An archipelago of around 99 islands, with mangrove tours, quiet beaches and a cable car in",
+        "≈1 h flight",
+        "DRIEST MONTHS",
+        "Roughly Nov – Apr",
+        "Melaka City",
+        "Dutch and Portuguese-era landmarks, Peranakan cooking and the Jonker Street weekend night ",
+        "≈2 h drive",
+        "Heritage, Nyonya food",
+        "Tanah Rata, Pahang",
+        "Cool air around 1,500 m up, tea estates, mossy forest trails and strawberry farms.",
+        "≈3.5–4 h drive",
+        "CLIMATE",
+        "Cool, often 15–25 °C",
+        "Kota Kinabalu, Sabah",
+        "Mount Kinabalu, island marine parks and rainforest wildlife on the northern tip of Borneo.",
+        "≈2.5 h flight",
+        "Hiking, diving, wildlife",
+        "PHRASE OF THE DAY",
+        "Tumpang lalu",
+        "toom-PAHNG LAH-loo",
+        "“Excuse me, may I pass?” Handy in busy markets and on the five-foot way.",
+        "Open culture guide →",
+        "Near you this weekend",
+        "Climb the 272 steps at Batu Caves",
+        "Gombak, Selangor · 30 min from KL",
+        "A rainbow staircase up to a limestone temple cave. Cover knees and shoulders before you cl",
+        "About 2 hours"
+       ],
+       "links": [
+        [
+         "Search field",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Nature & adventure",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Cultural heritage",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Food & local cuisine",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/Beaches & islands",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Mood/City exploration",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Destination/Penang",
+         "ON_CLICK",
+         "NAVIGATE",
+         "06 Destination – Penang",
+         "PUSH"
+        ],
+        [
+         "Phrase of the day",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 04 Home",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "05 Explore – Search",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1018,
+       "fixed": 2,
+       "text": [
+        "Explore",
+        "Penang",
+        "Cancel",
+        "All",
+        "Places",
+        "Experiences",
+        "Food",
+        "Phrases",
+        "TOP MATCH",
+        "Destination · Pulau Pinang",
+        "≈1 h flight from KL",
+        "EXPERIENCES & GUIDES",
+        "George Town heritage walk",
+        "Experience · About 3 hours",
+        "Hawker breakfast in George Town",
+        "Food · About 1.5 hours",
+        "Phrases for hawker stalls",
+        "Culture guide · 5 phrases with audio",
+        "RECENT",
+        "Halal food near KLCC",
+        "Batu Caves dress code",
+        "Cameron Highlands in December",
+        "9:41",
+        "Home",
+        "Lens",
+        "Trips",
+        "Me"
+       ],
+       "links": [
+        [
+         "Cancel",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Result/Penang",
+         "ON_CLICK",
+         "NAVIGATE",
+         "06 Destination – Penang",
+         "PUSH"
+        ],
+        [
+         "Result/Heritage walk",
+         "ON_CLICK",
+         "NAVIGATE",
+         "07 Experience – Heritage walk",
+         "PUSH"
+        ],
+        [
+         "Result/Phrases",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 05 Explore – Search",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "06 Destination – Penang",
+       "type": "FRAME",
+       "w": 393,
+       "h": 2284,
+       "fixed": 2,
+       "text": [
+        "PULAU PINANG · NORTHERN REGION",
+        "Penang",
+        "George Town · UNESCO World Heritage Site",
+        "FROM KL",
+        "≈1 h flight",
+        "GET AROUND",
+        "Bus, e-hailing, walk",
+        "YOU'LL HEAR",
+        "Malay, Hokkien, English",
+        "Overview",
+        "Experiences",
+        "Etiquette",
+        "Penang mixes Malay, Chinese, Indian and Peranakan heritage in a compact island. Spend a mo",
+        "Good to know",
+        "Cover shoulders and knees at temples and mosques.",
+        "Hot and humid all year. Start walks before 10 am.",
+        "Rapid Penang buses and e-hailing cover the island. The heritage core is walkable.",
+        "Top experiences",
+        "See all",
+        "Cultural heritage",
+        "George Town heritage walk",
+        "George Town, Penang",
+        "Shophouse lanes, a clan temple and the jetties, with a kopi stop on the way.",
+        "About 3 hours",
+        "Morning",
+        "Food & local cuisine",
+        "Hawker breakfast in George Town",
+        "Share a table, order from several stalls and pay each stall separately.",
+        "About 1.5 hours",
+        "7–10 am",
+        "AR · HERITAGE LENS",
+        "See George Town in AR",
+        "Point your camera at a shophouse to hear its story, in your language.",
+        "Open Heritage Lens",
+        "9:41",
+        "Save",
+        "Add to trip"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Seg/Etiquette",
+         "ON_CLICK",
+         "NAVIGATE",
+         "08 Culture guide – Phrases",
+         "PUSH"
+        ],
+        [
+         "Action",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Experience/George Town heritage walk",
+         "ON_CLICK",
+         "NAVIGATE",
+         "07 Experience – Heritage walk",
+         "PUSH"
+        ],
+        [
+         "Button/Open Heritage Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "MOVE_IN"
+        ],
+        [
+         "Button/Add to trip",
+         "ON_CLICK",
+         "NAVIGATE",
+         "09 Trips – Just added",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 06 Destination – Penang",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "07 Experience – Heritage walk",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1344,
+       "fixed": 2,
+       "text": [
+        "Cultural heritage",
+        "George Town heritage walk",
+        "George Town, Penang",
+        "About 3 hours",
+        "Best in the morning",
+        "Easy, flat walking",
+        "Listen to the story",
+        "3 min · EN / BM · captions on",
+        "Route",
+        "1",
+        "Armenian Street",
+        "Murals and restored shophouses. Start before 9 am, before the heat.",
+        "2",
+        "Khoo Kongsi",
+        "An ornate clan temple. There is an entry fee; check opening hours.",
+        "3",
+        "Chew Jetty",
+        "A clan village on stilts. People live here, so keep voices down.",
+        "4",
+        "Kopi break",
+        "Order kopi-o (black coffee with sugar) at a nearby kopitiam.",
+        "Be a good guest",
+        "Ask before photographing people.",
+        "Take shoes off where you see others do.",
+        "Carry small notes for entry fees and snacks.",
+        "9:41",
+        "Add to Day 1 · Sat 17 Oct"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Button/Add to Day 1 · Sat 17 Oct",
+         "ON_CLICK",
+         "NAVIGATE",
+         "09 Trips – Just added",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 07 Experience – Heritage walk",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "08 Culture guide – Phrases",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1335,
+       "fixed": 2,
+       "text": [
+        "Culture guide",
+        "Everyday phrases and etiquette, with audio and captions.",
+        "Phrases",
+        "Etiquette",
+        "Festivals",
+        "Terima kasih",
+        "teh-REE-mah KAH-see",
+        "Thank you",
+        "Tumpang lalu",
+        "toom-PAHNG LAH-loo",
+        "Excuse me, may I pass?",
+        "Berapa harga?",
+        "beh-RAH-pah HAR-gah",
+        "How much is it?",
+        "Tak nak pedas",
+        "tahk nahk peh-DAHS",
+        "Not spicy, please",
+        "Boleh tolong saya?",
+        "BOH-leh TOH-long SAH-yah",
+        "Could you help me?",
+        "Practise out loud",
+        "Say a phrase and Tourix gives feedback on your pronunciation.",
+        "Everyday etiquette",
+        "Give and receive things with your right hand.",
+        "Point with your thumb rather than your index finger.",
+        "If you eat halal, look for the JAKIM halal logo.",
+        "Take shoes off before entering someone's home.",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Trips",
+        "Me"
+       ],
+       "links": [
+        [
+         "Back",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 08 Culture guide – Phrases",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Flow 3 · Plan a trip & settings",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "09 Trips – Just added",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1137,
+       "fixed": 2,
+       "text": [
+        "Trips",
+        "UPCOMING · 2 TRAVELLERS",
+        "Weekend in Penang",
+        "Sat 17 – Sun 18 Oct 2026",
+        "Synced on iPhone and laptop · just now",
+        "Day 1 · Sat",
+        "Day 2 · Sun",
+        "George Town · 4 stops · 3.2 km",
+        "08:00",
+        "Breakfast at a kopitiam",
+        "Roti canai and teh tarik near Lebuh Chulia",
+        "09:30",
+        "JUST ADDED",
+        "George Town heritage walk",
+        "About 3 hours · Armenian Street → Chew Jetty",
+        "13:00",
+        "Lunch at a hawker centre",
+        "Order from several stalls, share a table",
+        "16:30",
+        "Penang Hill",
+        "Funicular up for sunset views",
+        "Add a stop",
+        "Share plan",
+        "Added to Day 1",
+        "Undo",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Me"
+       ],
+       "links": [
+        [
+         "Button/Add a stop",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ],
+        [
+         "(frame)",
+         "AFTER_TIMEOUT 2.4000000953674316s",
+         "NAVIGATE",
+         "10 Trips",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 09 Trips – Just added",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "10 Trips",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1137,
+       "fixed": 2,
+       "text": [
+        "Trips",
+        "UPCOMING · 2 TRAVELLERS",
+        "Weekend in Penang",
+        "Sat 17 – Sun 18 Oct 2026",
+        "Synced on iPhone and laptop · just now",
+        "Day 1 · Sat",
+        "Day 2 · Sun",
+        "George Town · 4 stops · 3.2 km",
+        "08:00",
+        "Breakfast at a kopitiam",
+        "Roti canai and teh tarik near Lebuh Chulia",
+        "09:30",
+        "JUST ADDED",
+        "George Town heritage walk",
+        "About 3 hours · Armenian Street → Chew Jetty",
+        "13:00",
+        "Lunch at a hawker centre",
+        "Order from several stalls, share a table",
+        "16:30",
+        "Penang Hill",
+        "Funicular up for sunset views",
+        "Add a stop",
+        "Share plan",
+        "Added to Day 1",
+        "Undo",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Me"
+       ],
+       "links": [
+        [
+         "Button/Add a stop",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 10 Trips",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "11 Me – Settings & accessibility",
+       "type": "FRAME",
+       "w": 393,
+       "h": 1127,
+       "fixed": 2,
+       "text": [
+        "Me",
+        "Guest explorer",
+        "Kuala Lumpur · 3 saved places",
+        "LANGUAGE & REGION",
+        "Language",
+        "English",
+        "Units",
+        "km, °C",
+        "ACCESSIBILITY",
+        "Text size",
+        "Follows iOS Dynamic Type",
+        "A",
+        "High contrast",
+        "Stronger borders and text",
+        "Reduce motion",
+        "Stops the 3D showcase auto-rotating",
+        "Captions on audio",
+        "Text for every audio guide",
+        "OFFLINE & SYNC",
+        "Offline guide packs",
+        "Penang · 24 MB",
+        "Synced devices",
+        "iPhone, laptop",
+        "ABOUT",
+        "About this prototype",
+        "v0.1",
+        "9:41",
+        "Home",
+        "Explore",
+        "Lens",
+        "Trips"
+       ],
+       "links": [
+        [
+         "Tab/Home",
+         "ON_CLICK",
+         "NAVIGATE",
+         "04 Home",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Explore",
+         "ON_CLICK",
+         "NAVIGATE",
+         "05 Explore – Search",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Lens",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Trips",
+         "ON_CLICK",
+         "NAVIGATE",
+         "10 Trips",
+         "DISSOLVE"
+        ],
+        [
+         "Tab/Me",
+         "ON_CLICK",
+         "NAVIGATE",
+         "11 Me – Settings & accessibility",
+         "DISSOLVE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 11 Me – Settings & accessibility",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Flow 4 · AR Heritage Lens (advanced feature)",
+     "type": "SECTION",
+     "frames": [
+      {
+       "name": "12 AR Heritage Lens",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "Shophouse detected",
+        "Five-foot way",
+        "kaki lima · tap to learn",
+        "Straits shophouse façade",
+        "History · 2 min",
+        "Kopitiam nearby",
+        "Food · 120 m",
+        "Heritage Lens",
+        "AR",
+        "Point at a shophouse façade. Tap a label to learn more.",
+        "History",
+        "Phrases",
+        "Food nearby",
+        "ARCHITECTURE · GEORGE TOWN",
+        "The five-foot way",
+        "In Malay: kaki lima",
+        "The covered walkway in front of shophouses, roughly five feet wide. It gives shade and sha",
+        "Listen · 1 min",
+        "English · Bahasa Melayu · captions on",
+        "Save",
+        "Next landmark",
+        "9:41"
+       ],
+       "links": [
+        [
+         "AR label · Five-foot way",
+         "ON_CLICK",
+         "NAVIGATE",
+         "13 AR Lens – Landmark info",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Close",
+         "ON_CLICK",
+         "BACK"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 12 AR Heritage Lens",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      },
+      {
+       "name": "13 AR Lens – Landmark info",
+       "type": "FRAME",
+       "w": 393,
+       "h": 852,
+       "fixed": 1,
+       "text": [
+        "Shophouse detected",
+        "Five-foot way",
+        "kaki lima · tap to learn",
+        "Straits shophouse façade",
+        "History · 2 min",
+        "Kopitiam nearby",
+        "Food · 120 m",
+        "Heritage Lens",
+        "AR",
+        "Point at a shophouse façade. Tap a label to learn more.",
+        "History",
+        "Phrases",
+        "Food nearby",
+        "ARCHITECTURE · GEORGE TOWN",
+        "The five-foot way",
+        "In Malay: kaki lima",
+        "The covered walkway in front of shophouses, roughly five feet wide. It gives shade and sha",
+        "Listen · 1 min",
+        "English · Bahasa Melayu · captions on",
+        "Save",
+        "Next landmark",
+        "9:41"
+       ],
+       "links": [
+        [
+         "Close",
+         "ON_CLICK",
+         "BACK"
+        ],
+        [
+         "Scrim",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Close sheet",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ],
+        [
+         "Button/Next landmark",
+         "ON_CLICK",
+         "NAVIGATE",
+         "12 AR Heritage Lens",
+         "SMART_ANIMATE"
+        ]
+       ]
+      },
+      {
+       "name": "Label · 13 AR Lens – Landmark info",
+       "type": "FRAME",
+       "w": 393,
+       "h": 68
+      }
+     ]
+    },
+    {
+     "name": "Build log",
+     "type": "FRAME",
+     "frames": [
+      {
+       "name": "Build log",
+       "type": "FRAME",
+       "w": 900,
+       "h": 92,
+       "fixed": 0,
+       "text": [
+        "Build log · no issues"
+       ],
+       "links": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "variables": [
+  {
+   "c": "Tourix Tokens",
+   "n": "color/pandan/900",
+   "t": "COLOR",
+   "v": "#0B2A21",
+   "d": "Deep pandan – hero, dark surfaces"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/pandan/700",
+   "t": "COLOR",
+   "v": "#155240",
+   "d": "Pandan – secondary dark, icons"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/pandan/500",
+   "t": "COLOR",
+   "v": "#2E7D5B",
+   "d": "Pandan – links, active states"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/pandan/100",
+   "t": "COLOR",
+   "v": "#E3EFE8",
+   "d": "Pandan tint – chips, soft fills"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/kaya/400",
+   "t": "COLOR",
+   "v": "#F2C14E",
+   "d": "Kaya gold – primary action"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/kaya/500",
+   "t": "COLOR",
+   "v": "#E0A82E",
+   "d": "Kaya pressed/hover"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/kaya/100",
+   "t": "COLOR",
+   "v": "#FBEFCF",
+   "d": "Kaya tint – highlights"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/bunga/500",
+   "t": "COLOR",
+   "v": "#C7362F",
+   "d": "Bunga raya red – saves, map pins"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/mist",
+   "t": "COLOR",
+   "v": "#F4F7F3",
+   "d": "Page background"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/surface",
+   "t": "COLOR",
+   "v": "#FFFFFF",
+   "d": "Card surface"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/ink",
+   "t": "COLOR",
+   "v": "#13201B",
+   "d": "Primary text"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/ink-muted",
+   "t": "COLOR",
+   "v": "#4E5E57",
+   "d": "Secondary text (6.3:1 on mist)"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/line",
+   "t": "COLOR",
+   "v": "#D7E0DA",
+   "d": "Borders, dividers"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/on-dark",
+   "t": "COLOR",
+   "v": "#F4F7F3",
+   "d": "Text on pandan"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "color/on-dark-muted",
+   "t": "COLOR",
+   "v": "#B9CCC2",
+   "d": "Secondary text on pandan"
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "radius/sm",
+   "t": "FLOAT",
+   "v": 8
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "radius/md",
+   "t": "FLOAT",
+   "v": 14
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "radius/lg",
+   "t": "FLOAT",
+   "v": 22
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "radius/xl",
+   "t": "FLOAT",
+   "v": 32
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "radius/pill",
+   "t": "FLOAT",
+   "v": 999
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/4",
+   "t": "FLOAT",
+   "v": 4
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/8",
+   "t": "FLOAT",
+   "v": 8
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/12",
+   "t": "FLOAT",
+   "v": 12
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/16",
+   "t": "FLOAT",
+   "v": 16
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/24",
+   "t": "FLOAT",
+   "v": 24
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/32",
+   "t": "FLOAT",
+   "v": 32
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/48",
+   "t": "FLOAT",
+   "v": 48
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/64",
+   "t": "FLOAT",
+   "v": 64
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/96",
+   "t": "FLOAT",
+   "v": 96
+  },
+  {
+   "c": "Tourix Tokens",
+   "n": "space/120",
+   "t": "FLOAT",
+   "v": 120
+  }
+ ],
+ "textStyles": [
+  {
+   "n": "Eyebrow",
+   "f": "DM Mono Medium",
+   "s": 12,
+   "lh": 16,
+   "ls": 1.2000000476837158,
+   "tc": "UPPER"
+  },
+  {
+   "n": "Display/XL",
+   "f": "Gloock Regular",
+   "s": 76,
+   "lh": 80,
+   "ls": -1.5,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Display/L",
+   "f": "Gloock Regular",
+   "s": 54,
+   "lh": 60,
+   "ls": -1,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Display/M",
+   "f": "Gloock Regular",
+   "s": 38,
+   "lh": 44,
+   "ls": -0.5,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Display/S",
+   "f": "Gloock Regular",
+   "s": 26,
+   "lh": 32,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Mobile/Display XL",
+   "f": "Gloock Regular",
+   "s": 42,
+   "lh": 46,
+   "ls": -1,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Mobile/Display M",
+   "f": "Gloock Regular",
+   "s": 30,
+   "lh": 36,
+   "ls": -0.5,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Heading/M",
+   "f": "Figtree SemiBold",
+   "s": 20,
+   "lh": 28,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Heading/S",
+   "f": "Figtree SemiBold",
+   "s": 17,
+   "lh": 24,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Body/L",
+   "f": "Figtree Regular",
+   "s": 19,
+   "lh": 30,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Body/M",
+   "f": "Figtree Regular",
+   "s": 16,
+   "lh": 24,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Body/S",
+   "f": "Figtree Regular",
+   "s": 14,
+   "lh": 20,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Label/M",
+   "f": "Figtree SemiBold",
+   "s": 15,
+   "lh": 20,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Label/S",
+   "f": "Figtree Medium",
+   "s": 13,
+   "lh": 18,
+   "ls": 0,
+   "tc": "ORIGINAL"
+  },
+  {
+   "n": "Mono/S",
+   "f": "DM Mono Regular",
+   "s": 12,
+   "lh": 16,
+   "ls": 0.20000000298023224,
+   "tc": "ORIGINAL"
+  }
+ ],
+ "effectStyles": [
+  {
+   "n": "Elevation/1",
+   "e": [
+    "DROP_SHADOW r2 y1 a0.06",
+    "DROP_SHADOW r12 y4 a0.06"
+   ]
+  },
+  {
+   "n": "Elevation/2",
+   "e": [
+    "DROP_SHADOW r6 y2 a0.08",
+    "DROP_SHADOW r40 y16 a0.14"
+   ]
+  },
+  {
+   "n": "Elevation/3D Card",
+   "e": [
+    "DROP_SHADOW r20 y10 a0.25",
+    "DROP_SHADOW r80 y40 a0.45"
+   ]
+  },
+  {
+   "n": "Glass/Blur",
+   "e": [
+    "BACKGROUND_BLUR r24"
+   ]
+  }
+ ],
+ "components": [
+  {
+   "page": "Design System",
+   "n": "Logo",
+   "t": "COMPONENT_SET",
+   "d": "Tourix. Mark = a dotted trail ending at a destination. Dark theme for pandan surfaces, Light for mist/white.",
+   "w": 320,
+   "h": 82,
+   "props": [
+    "Theme:VARIANT"
+   ],
+   "variants": [
+    "Theme=Dark",
+    "Theme=Light"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "Design System",
+   "n": "Button",
+   "t": "COMPONENT_SET",
+   "d": "Primary = kaya (one per view). Dark = secondary on light surfaces. Outline = tertiary. On Dark = secondary on pandan/photo. Hover: smart-animate 220ms ease-out. Min height 48px (touch target).",
+   "w": 760,
+   "h": 246,
+   "props": [
+    "Label:TEXT",
+    "Show icon:BOOLEAN",
+    "Type:VARIANT",
+    "State:VARIANT"
+   ],
+   "variants": [
+    "Type=Primary, State=Default",
+    "Type=Primary, State=Hover",
+    "Type=Dark, State=Default",
+    "Type=Dark, State=Hover",
+    "Type=Outline, State=Default",
+    "Type=Outline, State=Hover",
+    "Type=On Dark, State=Default",
+    "Type=On Dark, State=Hover"
+   ],
+   "interactions": [
+    "Type=Primary, State=Default –ON_HOVER→ Type=Primary, State=Hover",
+    "Type=Dark, State=Default –ON_HOVER→ Type=Dark, State=Hover",
+    "Type=Outline, State=Default –ON_HOVER→ Type=Outline, State=Hover",
+    "Type=On Dark, State=Default –ON_HOVER→ Type=On Dark, State=Hover"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Filter Chip",
+   "t": "COMPONENT_SET",
+   "d": "Filter chip. Hover → tint; click toggles Active (pandan). Used for region filters and experience categories.",
+   "w": 239,
+   "h": 88,
+   "props": [
+    "Label:TEXT",
+    "State:VARIANT"
+   ],
+   "variants": [
+    "State=Default",
+    "State=Hover",
+    "State=Active"
+   ],
+   "interactions": [
+    "State=Default –ON_HOVER→ State=Hover",
+    "State=Hover –ON_CLICK→ State=Active",
+    "State=Active –ON_CLICK→ State=Default"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Save Button",
+   "t": "COMPONENT_SET",
+   "d": "Save to trip (heart). Click toggles. 40px visual inside a 44px hit area.",
+   "w": 136,
+   "h": 80,
+   "props": [
+    "State:VARIANT"
+   ],
+   "variants": [
+    "State=Default",
+    "State=Saved"
+   ],
+   "interactions": [
+    "State=Default –ON_CLICK→ State=Saved",
+    "State=Saved –ON_CLICK→ State=Default"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/mountain",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/landmark",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/utensils",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/palm",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/building",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/compass",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/gem",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/route",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/languages",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/pin",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/clock",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/sun",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/search",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/calendar",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/users",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Icon/heart",
+   "t": "COMPONENT",
+   "d": "",
+   "w": 24,
+   "h": 24,
+   "props": []
+  },
+  {
+   "page": "Design System",
+   "n": "Destination Card",
+   "t": "COMPONENT_SET",
+   "d": "Destination card (320w). Swap the Photo fill per destination. Hover: photo zooms ~12%, shade deepens, card lifts with 3D shadow, arrow turns kaya. Save button toggles independently.",
+   "w": 744,
+   "h": 525,
+   "props": [
+    "Title:TEXT",
+    "Location:TEXT",
+    "Description:TEXT",
+    "Region:TEXT",
+    "Fact 1 label:TEXT",
+    "Fact 1 value:TEXT",
+    "Fact 2 label:TEXT",
+    "Fact 2 value:TEXT",
+    "State:VARIANT"
+   ],
+   "variants": [
+    "State=Default",
+    "State=Hover"
+   ],
+   "interactions": [
+    "State=Default –ON_HOVER→ State=Hover"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Experience Card",
+   "t": "COMPONENT_SET",
+   "d": "Featured experience card (384w, 3-up grid). Durations are typical visit lengths, not bookable slots. No prices or ratings shown by design.",
+   "w": 872,
+   "h": 492,
+   "props": [
+    "Title:TEXT",
+    "Location:TEXT",
+    "Description:TEXT",
+    "Category:TEXT",
+    "Duration:TEXT",
+    "Best time:TEXT",
+    "Category icon:INSTANCE_SWAP",
+    "State:VARIANT"
+   ],
+   "variants": [
+    "State=Default",
+    "State=Hover"
+   ],
+   "interactions": [
+    "State=Default –ON_HOVER→ State=Hover"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Category Tile",
+   "t": "COMPONENT_SET",
+   "d": "Experience category tile (224×320). Icon + label carry meaning; photo is supportive. Hover: zoom + lift.",
+   "w": 552,
+   "h": 384,
+   "props": [
+    "Title:TEXT",
+    "Subtitle:TEXT",
+    "Category icon:INSTANCE_SWAP",
+    "State:VARIANT"
+   ],
+   "variants": [
+    "State=Default",
+    "State=Hover"
+   ],
+   "interactions": [
+    "State=Default –ON_HOVER→ State=Hover"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Search Field",
+   "t": "COMPONENT_SET",
+   "d": "Search segment. Visible label (not placeholder-only) for WCAG 3.3.2. Click toggles Focused (kaya ring) in the prototype.",
+   "w": 632,
+   "h": 113,
+   "props": [
+    "Label:TEXT",
+    "Value:TEXT",
+    "Field icon:INSTANCE_SWAP",
+    "State:VARIANT"
+   ],
+   "variants": [
+    "State=Default",
+    "State=Focused"
+   ],
+   "interactions": [
+    "State=Default –ON_CLICK→ State=Focused",
+    "State=Focused –ON_CLICK→ State=Default"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Benefit Item",
+   "t": "COMPONENT",
+   "d": "Benefit item for the pandan 'Why Tourix' band.",
+   "w": 270,
+   "h": 140,
+   "props": [
+    "Title:TEXT",
+    "Body:TEXT",
+    "Benefit icon:INSTANCE_SWAP"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "Showcase Card",
+   "t": "COMPONENT",
+   "d": "Card used inside the 3D Showcase ring. Coordinates are approximate city-centre values.",
+   "w": 260,
+   "h": 360,
+   "props": [
+    "Title:TEXT",
+    "Region:TEXT",
+    "Coords:TEXT"
+   ]
+  },
+  {
+   "page": "Design System",
+   "n": "3D Showcase",
+   "t": "COMPONENT_SET",
+   "d": "Hero 3D showcase. Six destination cards on a dotted orbit; depth faked with scale + vertical skew + opacity + blur. Prototype: auto-rotates every 3.2 s (After delay → Smart animate), Prev/Next buttons and dragging the front card also rotate. Fireflies nod to Kuala Selangor's kelip-kelip.",
+   "w": 2080,
+   "h": 1320,
+   "props": [
+    "Front:VARIANT"
+   ],
+   "variants": [
+    "Front=Kuala Lumpur",
+    "Front=Penang",
+    "Front=Langkawi",
+    "Front=Melaka",
+    "Front=Cameron Highlands",
+    "Front=Sabah"
+   ],
+   "interactions": [
+    "Front=Kuala Lumpur –AFTER_TIMEOUT→ Front=Penang",
+    "Front=Penang –AFTER_TIMEOUT→ Front=Langkawi",
+    "Front=Langkawi –AFTER_TIMEOUT→ Front=Melaka",
+    "Front=Melaka –AFTER_TIMEOUT→ Front=Cameron Highlands",
+    "Front=Cameron Highlands –AFTER_TIMEOUT→ Front=Sabah",
+    "Front=Sabah –AFTER_TIMEOUT→ Front=Kuala Lumpur"
+   ]
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype)",
+   "n": "Status Bar (iOS)",
+   "t": "COMPONENT_SET",
+   "d": "iOS status bar, 54pt. Dark = on pandan headers, Light = on mist screens, Clear = over photos and the AR camera.",
+   "w": 425,
+   "h": 226,
+   "props": [
+    "Theme:VARIANT"
+   ],
+   "variants": [
+    "Theme=Dark",
+    "Theme=Light",
+    "Theme=Clear"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype)",
+   "n": "Tab Bar (iOS)",
+   "t": "COMPONENT_SET",
+   "d": "iOS tab bar, 84pt incl. home indicator. Five destinations; the raised kaya Lens button opens the AR Heritage Lens (advanced feature). Targets ≥ 44pt; labels always visible (no icon-only navigation).",
+   "w": 441,
+   "h": 564,
+   "props": [
+    "Active:VARIANT"
+   ],
+   "variants": [
+    "Active=Home",
+    "Active=Explore",
+    "Active=Lens",
+    "Active=Trips",
+    "Active=Me"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype)",
+   "n": "Interest Tile",
+   "t": "COMPONENT_SET",
+   "d": "Onboarding interest tile. Tap toggles Selected (works in the prototype). Selection is shown by colour AND a tick, not colour alone (WCAG 1.4.1).",
+   "w": 392,
+   "h": 174,
+   "props": [
+    "Label:TEXT",
+    "Icon:INSTANCE_SWAP",
+    "Selected:VARIANT"
+   ],
+   "variants": [
+    "Selected=Off",
+    "Selected=On"
+   ],
+   "interactions": [
+    "Selected=Off –ON_CLICK→ Selected=On",
+    "Selected=On –ON_CLICK→ Selected=Off"
+   ]
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype)",
+   "n": "Toggle",
+   "t": "COMPONENT_SET",
+   "d": "iOS-style switch, 51×31. Tap toggles in the prototype.",
+   "w": 150,
+   "h": 63,
+   "props": [
+    "On:VARIANT"
+   ],
+   "variants": [
+    "On=No",
+    "On=Yes"
+   ],
+   "interactions": [
+    "On=No –ON_CLICK→ On=Yes",
+    "On=Yes –ON_CLICK→ On=No"
+   ]
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype) 2",
+   "n": "Status Bar (iOS)",
+   "t": "COMPONENT_SET",
+   "d": "iOS status bar, 54pt. Dark = on pandan headers, Light = on mist screens, Clear = over photos and the AR camera.",
+   "w": 425,
+   "h": 226,
+   "props": [
+    "Theme:VARIANT"
+   ],
+   "variants": [
+    "Theme=Dark",
+    "Theme=Light",
+    "Theme=Clear"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype) 2",
+   "n": "Tab Bar (iOS)",
+   "t": "COMPONENT_SET",
+   "d": "iOS tab bar, 84pt incl. home indicator. Five destinations; the raised kaya Lens button opens the AR Heritage Lens (advanced feature). Targets ≥ 44pt; labels always visible (no icon-only navigation).",
+   "w": 441,
+   "h": 564,
+   "props": [
+    "Active:VARIANT"
+   ],
+   "variants": [
+    "Active=Home",
+    "Active=Explore",
+    "Active=Lens",
+    "Active=Trips",
+    "Active=Me"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype) 2",
+   "n": "Interest Tile",
+   "t": "COMPONENT_SET",
+   "d": "Onboarding interest tile. Tap toggles Selected (works in the prototype). Selection is shown by colour AND a tick, not colour alone (WCAG 1.4.1).",
+   "w": 392,
+   "h": 174,
+   "props": [
+    "Label:TEXT",
+    "Icon:INSTANCE_SWAP",
+    "Selected:VARIANT"
+   ],
+   "variants": [
+    "Selected=Off",
+    "Selected=On"
+   ],
+   "interactions": [
+    "Selected=Off –ON_CLICK→ Selected=On",
+    "Selected=On –ON_CLICK→ Selected=Off"
+   ]
+  },
+  {
+   "page": "OLD – delete me (Mobile Prototype) 2",
+   "n": "Toggle",
+   "t": "COMPONENT_SET",
+   "d": "iOS-style switch, 51×31. Tap toggles in the prototype.",
+   "w": 150,
+   "h": 63,
+   "props": [
+    "On:VARIANT"
+   ],
+   "variants": [
+    "On=No",
+    "On=Yes"
+   ],
+   "interactions": [
+    "On=No –ON_CLICK→ On=Yes",
+    "On=Yes –ON_CLICK→ On=No"
+   ]
+  },
+  {
+   "page": "Mobile Prototype (iOS)",
+   "n": "Status Bar (iOS)",
+   "t": "COMPONENT_SET",
+   "d": "iOS status bar, 54pt. Dark = on pandan headers, Light = on mist screens, Clear = over photos and the AR camera.",
+   "w": 425,
+   "h": 226,
+   "props": [
+    "Theme:VARIANT"
+   ],
+   "variants": [
+    "Theme=Dark",
+    "Theme=Light",
+    "Theme=Clear"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "Mobile Prototype (iOS)",
+   "n": "Tab Bar (iOS)",
+   "t": "COMPONENT_SET",
+   "d": "iOS tab bar, 84pt incl. home indicator. Five destinations; the raised kaya Lens button opens the AR Heritage Lens (advanced feature). Targets ≥ 44pt; labels always visible (no icon-only navigation).",
+   "w": 441,
+   "h": 564,
+   "props": [
+    "Active:VARIANT"
+   ],
+   "variants": [
+    "Active=Home",
+    "Active=Explore",
+    "Active=Lens",
+    "Active=Trips",
+    "Active=Me"
+   ],
+   "interactions": []
+  },
+  {
+   "page": "Mobile Prototype (iOS)",
+   "n": "Interest Tile",
+   "t": "COMPONENT_SET",
+   "d": "Onboarding interest tile. Tap toggles Selected (works in the prototype). Selection is shown by colour AND a tick, not colour alone (WCAG 1.4.1).",
+   "w": 392,
+   "h": 160,
+   "props": [
+    "Label:TEXT",
+    "Icon:INSTANCE_SWAP",
+    "Selected:VARIANT"
+   ],
+   "variants": [
+    "Selected=Off",
+    "Selected=On"
+   ],
+   "interactions": [
+    "Selected=Off –ON_CLICK→ Selected=On",
+    "Selected=On –ON_CLICK→ Selected=Off"
+   ]
+  },
+  {
+   "page": "Mobile Prototype (iOS)",
+   "n": "Toggle",
+   "t": "COMPONENT_SET",
+   "d": "iOS-style switch, 51×31. Tap toggles in the prototype.",
+   "w": 150,
+   "h": 63,
+   "props": [
+    "On:VARIANT"
+   ],
+   "variants": [
+    "On=No",
+    "On=Yes"
+   ],
+   "interactions": [
+    "On=No –ON_CLICK→ On=Yes",
+    "On=Yes –ON_CLICK→ On=No"
+   ]
+  }
+ ]
+}

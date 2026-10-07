@@ -1,0 +1,1 @@
+{ "name": "Tourix v3.3 – Copy fixes", "id": "tourix-v3-2-fixes", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

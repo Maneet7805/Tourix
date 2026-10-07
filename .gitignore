@@ -1,0 +1,21 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+*.key
+figma-token*
+
+# Kept on the laptop only (not published)
+Tourix_Part1_Proposal.md

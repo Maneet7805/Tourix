@@ -1,0 +1,1 @@
+{ "name": "Tourix v5.6 – AR label edge", "id": "tourix-v5-6-arlabel", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

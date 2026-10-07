@@ -1,0 +1,1 @@
+{ "name": "Tourix v5.4 – Chip hotspots", "id": "tourix-v5-4-hotspots", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

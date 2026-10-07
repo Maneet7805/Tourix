@@ -1,0 +1,9 @@
+{
+  "name": "Tourix – Worldwide scope",
+  "id": "tourix-worldwide-scope",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["https://images.pexels.com"], "reasoning": "Loads the five country photos (Pexels, free licence) for the showcase and country list." }
+}

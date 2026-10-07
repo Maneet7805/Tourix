@@ -1,0 +1,1 @@
+{ "name": "Tourix v5.1 – Flow starts", "id": "tourix-v5-1-flows", "api": "1.0.0", "main": "code.js", "editorType": ["figma"], "documentAccess": "dynamic-page", "networkAccess": { "allowedDomains": ["none"] } }

@@ -1,0 +1,8 @@
+<style>body{font:12px system-ui;margin:10px}textarea{width:100%;height:300px;font:10px monospace}button{margin-top:8px;padding:8px 12px}</style>
+<div id="msg">Preparing…</div><textarea id="t"></textarea><button id="b">Copy again</button>
+<script>
+const t=document.getElementById('t'),m=document.getElementById('msg');
+function copy(){t.focus();t.select();let ok=false;try{ok=document.execCommand('copy')}catch(e){}m.textContent=(ok?'Copied ':'Select all + Ctrl+C: ')+t.value.length+' characters. You can close this window.';parent.postMessage({pluginMessage:{copied:ok}},'*')}
+onmessage=(e)=>{const d=e.data.pluginMessage;if(d&&d.json){t.value=d.json;copy()}};
+document.getElementById('b').onclick=copy;
+</script>
